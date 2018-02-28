@@ -1,0 +1,4 @@
+Three Core Languages Of Website
+HTML-Controls the structure of the web pages
+CSS - Controls the presentation/design of the web page
+Javascript - Adds behaviour and interactivity
