@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Events</title>
+</head>
+<style media="screen">
+	body{
+		font-family: 'Monospace';
+		background: #ddd;
+	}
+	#page-content{
+		margin: 0 auto;
+		width: 600px;
+		background: #fff;
+		padding: 10px 10px;
+		max-height: 250px;
+		overflow: hidden;
+		-webkit-transition:max-height 0.7s;
+		-moz-transition:max-height 0.7s;
+		transition:max-height 0.7s;
+	}
+	#show-more{
+		background: blue;
+		padding: 10px 10px;
+		margin: 0 auto;
+		color: #fff;
+		text-decoration: none;
+		font-weight: bold;
+		left: 50%;
+		position: absolute;
+		margin-top: 20px;
+		margin-bottom: 50px;
+		text-transform: uppercase;
+	}
+	#page-content.open{
+		max-height: 520px;
+		-webkit-transition:max-height 0.7s;
+		-moz-transition:max-height 0.7s;
+		transition:max-height 0.7s;
+	}
+</style>
+<script src="test.js" type="text/javascript"></script>
+<body>
+	<h1>Events</h1>
+	<!--<h2>An Unordered HTML List</h2>
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+<h2>An Ordered HTML List</h2>
+
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>-->
+<div id="page-content" class="">
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus sit amet luctus venenatis lectus magna fringilla. Aliquam eleifend mi in nulla posuere. In fermentum et sollicitudin ac orci phasellus egestas. Faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis. Venenatis cras sed felis eget velit aliquet. Eget nunc lobortis mattis aliquam faucibus purus in massa. In ante metus dictum at tempor. Rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi. Vitae tempus quam pellentesque nec nam aliquam. Pellentesque sit amet porttitor eget dolor morbi. Sed ullamcorper morbi tincidunt ornare massa eget.</p>
+	<p>
+		Neque ornare aenean euismod elementum. Volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque. Pretium quam vulputate dignissim suspendisse. Vel quam elementum pulvinar etiam non. Lorem dolor sed viverra ipsum nunc aliquet. Orci eu lobortis elementum nibh tellus molestie nunc non blandit. Orci porta non pulvinar neque laoreet suspendisse interdum consectetur. Aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis. Morbi tincidunt augue interdum velit. Nec feugiat in fermentum posuere urna. Augue interdum velit euismod in pellentesque massa placerat duis ultricies. Velit aliquet sagittis id consectetur purus ut. Orci dapibus ultrices in iaculis nunc sed augue lacus.</p>
+</div>
+<a href="#" id="show-more">Show More<a>
+
+</body>
+</html>
